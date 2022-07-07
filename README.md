@@ -4,7 +4,7 @@ ECCV22 Paper "Batch-efficient EigenDecomposition for Small and Medium Matrices"
 <img src="numerical_test_batch.jpg" width="89%">
 
 We implement a batch-efficient ED solver for small and medium matrices (dim<32), which is dedicated to the application scenarios of computer vision. 
-The core part of the algorithm is based on the QR iteration with Double Wilkinson shifts and some other acceleration techniques carefully designed for the best batch efficiency. Our solver performs the ED entirely via batched matrix-matrix multiplication, which is much faster than `torch.svd` for small matrices.
+The core part of the algorithm is based on the QR iteration with Double Wilkinson shifts and some other acceleration techniques carefully designed for the best batch efficiency. Our solver performs the ED entirely via batched matrix-matrix multiplication.
 
 
 
