@@ -34,7 +34,7 @@ Batched ED Time 0.012771368026733398
 
 ## Computer Vision Experiments
 
-Please refer to [Fast Differentiable Matrix Square Root](https://github.com/KingJamesSong/FastDifferentiableMatSqrt) for all the real-world computer vision experiments. We want to maintain this repository as a standalone lib for batch ED. So it should be as clear as possible.
+Please refer to [Fast Differentiable Matrix Square Root](https://github.com/KingJamesSong/FastDifferentiableMatSqrt) for all the real-world computer vision experiments. We want to maintain this repository as a standalone lib for batch ED. So it should be as clean as possible.
 
 ## Citation
 
